@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <div class="task">
+                <div class="dot">
+                    <div class="circle red"></div>
+                    <div class="circle yellow"></div>
+                    <div class="circle green"></div>
+                </div>
+                
+                <p class="title">Tính năm âm lịch</p>
+                <div class="empty"></div>
+            </div>
+
+            <div class="main">
+                <div class="input">
+                    <input type="number" id="nam_duong_lich" placeholder="Năm dương lịch">
+                    <input type="button" value="==>" onclick="tinh_nam_am_lich()">  
+                    <p id="nam_am_lich">Năm âm lịch</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container2">
+            <div class="task">
+                <div class="dot">
+                    <div class="circle red"></div>
+                    <div class="circle yellow"></div>
+                    <div class="circle green"></div>
+                </div>
+                
+                <p class="title">Tính ngày trong tháng</p>
+                <div class="empty"></div>
+            </div>
+            
+            <div class="main">
+                <div class="input">
+                    <div>
+                        <input type="text" id="thang" placeholder="Tháng">
+                        /
+                        <input type="text" id="nam" placeholder="Năm">    
+                    </div>
+                    <input type="button" value="Tính ngày" onclick="tinh_ngay()">  
+                </div>
+                <div class="output">
+                    <p id="ket_qua"> Kết quả</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main1.js"></script>
+<script src="main2.js"></script>
+</html>
+
+
+
+
